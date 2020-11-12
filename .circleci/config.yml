@@ -7,6 +7,6 @@ jobs:
     steps:
       - checkout
       - run:
-          name:Hola
+          name: Hola
           command: echo Hola
       - ruby/bundle-install
